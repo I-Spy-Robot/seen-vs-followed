@@ -1,5 +1,5 @@
 site_name: Seen vs. Followed
-site_description: Do vision-language-action models act on text in the scene?
+site_description: Do robotic foundation models act on text in the scene?
 repo_url: https://github.com/I-Spy-Robot/seen-vs-followed
 theme:
   name: material

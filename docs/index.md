@@ -4,7 +4,7 @@
 
 <p class="meta">Zachary Gunderson · Independent researcher · Preliminary results, October 2026</p>
 
-Do vision-language-action (VLA) models act on text that appears in the scene?
+Do robotic foundation models act on text that appears in the scene?
 
 <div class="btns" markdown>
 
@@ -55,7 +55,7 @@ Do vision-language-action (VLA) models act on text that appears in the scene?
 
 ## Abstract
 
-This report asks whether vision-language-action policies act on text on a card placed in a simulated DROID sorting scene. Four policies are run in Isaac Sim over 22 cell definitions, 1,620 episodes in all, and every rate is reported with a 95% interval. A fine-tuning run to produce a positive control is in progress.
+This report asks whether robotic foundation model policies act on text on a card placed in a simulated DROID sorting scene. Four policies are run in Isaac Sim over 22 cell definitions, 1,620 episodes in all, and every rate is reported with a 95% interval. A fine-tuning run to produce a positive control is in progress.
 
 ## Key results
 

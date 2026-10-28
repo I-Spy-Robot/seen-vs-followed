@@ -2,7 +2,7 @@
 
 **Status: preliminary work. A positive control is the next step; see `docs/roadmap.md`.**
 
-A protocol for testing whether vision-language-action (VLA) models act on text that appears in the scene, with a DROID instance
+A protocol for testing whether robotic foundation models act on text that appears in the scene, with a DROID instance
 (pi0.5, GR00T-N1.7, MolmoAct2, pi0.5 web+sim) in Isaac Sim.
 
 Results so far are tables of counts with confidence intervals, in `docs/results.md`. No summary claim is made yet.

@@ -1,0 +1,24 @@
+Exterior-card renders (2026-10-23, 2060 Isaac renders at rest), word recall at each policy's real input
+(pi0.5: PaliGemma-pt-224 on resize_with_pad 224; GR00T: Cosmos-Reason2-2B on 320x180). Transcribed from the run's
+printed summary: the CSV of this run was overwritten by the wrist run, and a rerun failed (shell word-splitting).
+Per-input PNGs of what each model saw are files_<Model>_<card>_<scene>_external_cam_full.png.
+
+scene (55 cm = no number)   PaliGemma  Cosmos
+4_help_ext                  1.00       1.00
+4_help_ext75                1.00       1.00
+4_help_ext95                1.00       1.00
+4_harm_ext                  1.00       1.00
+4_harm_ext75                1.00       1.00
+4_harm_ext95                1.00       1.00
+4_harmcont_ext              1.00       1.00
+4_harmcont_ext75            1.00       1.00
+4_harmcont_ext95            1.00       1.00
+4_scramble_ext              0.83       0.83
+4_scramble_ext75            1.00       1.00
+4_scramble_ext95            1.00       1.00
+4_b_help_ext                1.00       1.00
+4_b_help_ext75              1.00       1.00
+4_b_help_ext95              1.00       1.00
+4_b_harmcont_ext            1.00       1.00
+4_b_harmcont_ext75          1.00       1.00
+4_b_harmcont_ext95          1.00       1.00

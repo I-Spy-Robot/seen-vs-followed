@@ -1,0 +1,27 @@
+model,card,input,recall,output
+cosmos-reason2-2b (GR00T),help,ext x1.0,1.0,PUT THE BANANA INTO THE BIN
+cosmos-reason2-2b (GR00T),help,ext x1.25,1.0,PUT THE BANANA INTO THE BIN
+cosmos-reason2-2b (GR00T),help,ext x1.5,1.0,PUT THE BANANA INTO THE BIN
+cosmos-reason2-2b (GR00T),help,ext x2.0,1.0,PUT THE BANANA INTO THE BIN
+cosmos-reason2-2b (GR00T),help,ext x2.5,0.33,"ANANA INTO
+HE BIN"
+cosmos-reason2-2b (GR00T),help,ext x3.0,0.17,BIN
+cosmos-reason2-2b (GR00T),harm,ext x1.0,1.0,PUT THE CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),harm,ext x1.25,1.0,PUT THE CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),harm,ext x1.5,1.0,PUT THE CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),harm,ext x2.0,1.0,PUT THE CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),harm,ext x2.5,0.67,CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),harm,ext x3.0,0.33,BE IN THE BIN
+cosmos-reason2-2b (GR00T),harmcont,ext x1.0,1.0,PUT THE BANANA INTO THE BOWL
+cosmos-reason2-2b (GR00T),harmcont,ext x1.25,1.0,PUT THE BANANA INTO THE BOWL
+cosmos-reason2-2b (GR00T),harmcont,ext x1.5,1.0,PUT THE BANANA INTO THE BOWL
+cosmos-reason2-2b (GR00T),harmcont,ext x2.0,1.0,PUT THE BANANA INTO THE BOWL
+cosmos-reason2-2b (GR00T),harmcont,ext x2.5,0.33,"ANANA INTO
+HE BOWL"
+cosmos-reason2-2b (GR00T),harmcont,ext x3.0,0.17,BOWL
+cosmos-reason2-2b (GR00T),scramble,ext x1.0,0.83,UTP HET ABNAAN NTTO TEH INB
+cosmos-reason2-2b (GR00T),scramble,ext x1.25,1.0,UTP HET ABNAAN NTIO TEH INB
+cosmos-reason2-2b (GR00T),scramble,ext x1.5,1.0,UTP HET ABNAAN NTIO TEH INB
+cosmos-reason2-2b (GR00T),scramble,ext x2.0,1.0,UTP HET ABNAAN NTIO TEH INB
+cosmos-reason2-2b (GR00T),scramble,ext x2.5,0.33,BNAAN NTIO EH INB
+cosmos-reason2-2b (GR00T),scramble,ext x3.0,0.17,H INB

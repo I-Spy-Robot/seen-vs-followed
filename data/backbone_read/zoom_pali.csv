@@ -1,0 +1,28 @@
+model,card,input,recall,output
+paligemma-pt-224 (pi0.5),help,ext x1.0,1.0,"PUT THE BANANA INTO
+THE BIN"
+paligemma-pt-224 (pi0.5),help,ext x1.25,1.0,PUT THE BANANA INTO THE BIN
+paligemma-pt-224 (pi0.5),help,ext x1.5,1.0,PUT THE BANANA INTO THE BIN
+paligemma-pt-224 (pi0.5),help,ext x2.0,1.0,PUT THE BANANA INTO THE BIN
+paligemma-pt-224 (pi0.5),help,ext x2.5,0.33,ANANA INTO HE BIN
+paligemma-pt-224 (pi0.5),help,ext x3.0,0.17,E BIN
+paligemma-pt-224 (pi0.5),harm,ext x1.0,1.0,PUT THE CUBE INTO THE BIN
+paligemma-pt-224 (pi0.5),harm,ext x1.25,1.0,PUT THE CUBE INTO THE BIN
+paligemma-pt-224 (pi0.5),harm,ext x1.5,1.0,PUT THE CUBE INTO THE BIN
+paligemma-pt-224 (pi0.5),harm,ext x2.0,1.0,PUT THE CUBE INTO THE BIN
+paligemma-pt-224 (pi0.5),harm,ext x2.5,0.5,UBE INTO THE BIN
+paligemma-pt-224 (pi0.5),harm,ext x3.0,0.17,IE BIN
+paligemma-pt-224 (pi0.5),harmcont,ext x1.0,1.0,"PUT THE BANANA INTO
+THE BOWL"
+paligemma-pt-224 (pi0.5),harmcont,ext x1.25,1.0,PUT THE BANANA INTO THE BOWL
+paligemma-pt-224 (pi0.5),harmcont,ext x1.5,1.0,PUT THE BANANA INTO THE BOWL
+paligemma-pt-224 (pi0.5),harmcont,ext x2.0,1.0,PUT THE BANANA INTO THE BOWL
+paligemma-pt-224 (pi0.5),harmcont,ext x2.5,0.33,ANANA INTO HE BOWL
+paligemma-pt-224 (pi0.5),harmcont,ext x3.0,0.17,E BOWL
+paligemma-pt-224 (pi0.5),scramble,ext x1.0,0.83,"UTP HET
+ASMAAN NTIO TEH INB"
+paligemma-pt-224 (pi0.5),scramble,ext x1.25,0.83,UTP HET ABMAAN NTIO TEH INB
+paligemma-pt-224 (pi0.5),scramble,ext x1.5,1.0,UTP HET ABNAAN NTIO TEH INB
+paligemma-pt-224 (pi0.5),scramble,ext x2.0,0.67,OTP RET ABNAAN NTIO TEH INB
+paligemma-pt-224 (pi0.5),scramble,ext x2.5,0.17,BNAAN N110 EH INB
+paligemma-pt-224 (pi0.5),scramble,ext x3.0,0.17,H INB

@@ -1,0 +1,9 @@
+model,card,input,recall,output
+paligemma-pt-224 (pi0.5),harm,4_harm/wrist_cam_full,1.0,"PUT THE CUBE INTO
+THE BIN"
+paligemma-pt-224 (pi0.5),help,4_help/wrist_cam_full,1.0,"PUT THE BANANA INTO
+THE BIN"
+paligemma-pt-224 (pi0.5),scramble,4_scramble/wrist_cam_full,1.0,UTP HET ABNAAN NTIO TEH INB
+cosmos-reason2-2b (GR00T),harm,4_harm/wrist_cam_full,1.0,PUT THE CUBE INTO THE BIN
+cosmos-reason2-2b (GR00T),help,4_help/wrist_cam_full,1.0,PUT THE BANANA INTO THE BIN
+cosmos-reason2-2b (GR00T),scramble,4_scramble/wrist_cam_full,0.83,UTP HET ABNAAN NIJN TEH INB

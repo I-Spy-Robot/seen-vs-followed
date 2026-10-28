@@ -1,0 +1,72 @@
+/* Fall Pages Kit (Gundy Neural Designs): autumn on paper. Tokens and rules follow the kit's brand and page skeleton. */
+:root {
+  --paper: #f6f1e7; --surface: #fdfaf3; --ink: #2b2118; --muted: #5c4f42; --rule: #d8ccb8;
+  --moss: #4f5f3a; --saffron: #c99a04; --pumpkin: #c4621a; --rust: #9a3b12; --burgundy: #6b2233;
+  --link: #9a3b12; --wash: #f3e1d3; --warn: #f8ecc4;
+  --fall: linear-gradient(90deg, #76885b 0%, #ebb305 30%, #c4621a 62%, #9a3b12 82%, #6b2233 100%);
+}
+[data-md-color-scheme="slate"] {
+  --paper: #1b1510; --surface: #251d16; --ink: #f1e8d8; --muted: #bfb09a; --rule: #433727;
+  --moss: #a9bd8a; --saffron: #f0c43c; --pumpkin: #f0a05a; --rust: #f08a5c; --burgundy: #e59aa6;
+  --link: #f0a05a; --wash: #3a2616; --warn: #3a3114;
+}
+[data-md-color-scheme="default"], [data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--paper); --md-default-fg-color: var(--ink); --md-default-fg-color--light: var(--muted);
+  --md-default-fg-color--lighter: var(--muted); --md-default-fg-color--lightest: var(--rule);
+  --md-primary-fg-color: var(--paper); --md-primary-bg-color: var(--ink); --md-primary-bg-color--light: var(--muted);
+  --md-accent-fg-color: var(--rust); --md-typeset-a-color: var(--link);
+  --md-code-bg-color: var(--surface); --md-code-fg-color: var(--ink);
+  --md-footer-bg-color: var(--surface); --md-footer-fg-color: var(--ink); --md-footer-fg-color--light: var(--muted);
+  --md-typeset-table-color: var(--rule);
+  --md-text-font: "IBM Plex Sans"; --md-code-font: "IBM Plex Mono";
+}
+body, .md-typeset { font-family: "IBM Plex Sans", system-ui, sans-serif; }
+.md-typeset { line-height: 1.65; font-size: 0.85rem; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-nav__title, .md-tabs, .md-header__title { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+.md-typeset h1 { font-weight: 600; letter-spacing: -0.02em; color: var(--ink); font-style: normal; font-size: 2rem; }
+.md-typeset h2 { font-weight: 600; font-size: 1.35rem; color: var(--ink); margin-top: 2.5rem; padding-top: 1.2rem; border-top: 2px solid var(--ink); }
+.md-typeset h3 { font-weight: 600; color: var(--ink); }
+.md-typeset a { text-decoration: underline; text-underline-offset: 0.18em; font-weight: 500; }
+.md-typeset a:hover { color: var(--rust); text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible, .md-tabs__link:focus-visible { outline: 3px solid var(--saffron); outline-offset: 3px; }
+.md-header { background-color: var(--paper); color: var(--ink); box-shadow: none; border-bottom: 3px solid var(--ink); }
+.md-tabs { background-color: var(--paper); color: var(--ink); border-bottom: 1px solid var(--rule); }
+.md-tabs__link { opacity: 0.8; } .md-tabs__link--active, .md-tabs__link:hover { opacity: 1; }
+.md-search__form { background-color: var(--surface); border: 1px solid var(--rule); box-shadow: none; }
+.md-typeset table:not([class]) { background: var(--surface); border: 1px solid var(--rule); box-shadow: none; font-size: 0.8rem; }
+.md-typeset table:not([class]) th { background: transparent; border-bottom: 2px solid var(--rust); font-family: "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.7rem; color: var(--muted); }
+.md-typeset code { background: var(--surface); border: 1px solid var(--rule); }
+.md-typeset pre > code { border: 0; }
+.md-typeset .highlight pre, .md-typeset pre { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; }
+.md-typeset .admonition, .md-typeset details { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--moss); box-shadow: none; }
+.md-typeset .admonition-title, .md-typeset summary { background: transparent; }
+.md-typeset img { border-radius: 2px; }
+
+/* Page-skeleton pieces */
+.hero { padding: 0.5rem 0 1.4rem; margin-bottom: 0.5rem; border-bottom: 3px solid var(--ink); }
+.hero .meta { font: 0.8rem "IBM Plex Mono", monospace; color: var(--muted); margin: 0 0 0.6rem; }
+.hero .lede { color: var(--muted); font-size: 1rem; max-width: 62ch; }
+.btns { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+.md-typeset .btns a { font: 600 0.8rem "IBM Plex Mono", monospace; text-decoration: none; padding: 0.5rem 0.9rem; border: 2px solid var(--rust); border-radius: 4px; color: var(--rust); background: transparent; }
+.md-typeset .btns a:first-child { background: var(--rust); color: var(--paper); }
+.md-typeset .btns a:hover { background: var(--wash); color: var(--rust); }
+.pages, .box { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--moss); border-radius: 4px; padding: 0.4rem 1.1rem 0.9rem; margin: 1rem 0 1.4rem; }
+.box.warn { background: var(--warn); border-left-color: var(--saffron); padding-top: 0.9rem; }
+.box.warn p:last-child { margin-bottom: 0; }
+.pages > p { margin-bottom: 0; text-transform: uppercase; letter-spacing: 0.06em; font: 600 0.72rem "IBM Plex Mono", monospace; color: var(--muted); }
+.pages ul { margin: 4px 0 0; padding: 0; list-style: none; } .pages li { margin: 4px 0; padding: 0; } .pages ul li::before { content: none; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.9rem; margin: 1rem 0 1.4rem; }
+.stat { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 0.8rem 0.9rem; min-width: 0; }
+.stat b { display: block; font: 600 1.6rem/1.15 "IBM Plex Mono", monospace; letter-spacing: -0.02em; color: var(--ink); }
+.stat i { display: block; font: normal 0.72rem "IBM Plex Mono", monospace; color: var(--muted); margin: 0.1rem 0 0.4rem; }
+.stat span { display: block; font-size: 0.78rem; line-height: 1.4; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; margin: 16px 0 24px; }
+.cards figure { margin: 0; }
+.cards img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); border-radius: 4px; }
+.cards figcaption { margin-top: 6px; font-size: 0.8rem; line-height: 1.35; font-style: normal; text-align: left; }
+.cards figcaption b { display: block; font-size: 0.85rem; }
+.group-label { font: 600 0.72rem "IBM Plex Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; margin: 20px 0 0; color: var(--muted); }
+.md-typeset h1 { margin: 0 0 0.3rem; }
+.hero { padding-top: 0; }
+.md-typeset .pages ul, .md-typeset .pages li { margin-left: 0; }
+.md-typeset .pages ul li, .md-typeset .pages ul { margin-left: 0 !important; }

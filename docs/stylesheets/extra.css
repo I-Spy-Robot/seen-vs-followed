@@ -1,0 +1,50 @@
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; margin: 16px 0 24px; }
+.cards figure { margin: 0; }
+.cards img { width: 100%; height: auto; display: block; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; }
+.cards figcaption { margin-top: 6px; font-style: normal; text-align: left; font-size: 0.8rem; line-height: 1.35; }
+.cards figcaption b { display: block; font-size: 0.85rem; }
+.group-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin: 20px 0 0; color: var(--md-default-fg-color--light); }
+
+/* Palette and type follow gundyneuraldesigns.com: warm paper neutrals, sage green, IBM Plex Mono. */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #e8e4de; --md-default-fg-color: #333333; --md-default-fg-color--light: #555555;
+  --md-default-fg-color--lighter: #999999; --md-default-fg-color--lightest: #d4cfc7;
+  --md-primary-fg-color: #f5f3f0; --md-primary-bg-color: #333333; --md-primary-bg-color--light: #666666;
+  --md-accent-fg-color: #2d3a1f; --md-typeset-a-color: #3b4a2a;
+  --md-code-bg-color: #f5f3f0; --md-code-fg-color: #333333;
+  --md-footer-bg-color: #d4cfc7; --md-footer-fg-color: #333333; --md-footer-fg-color--light: #666666;
+  --md-typeset-table-color: #d4cfc7; --svf-panel: #f5f3f0; --svf-accent: #76885b; --svf-accent-soft: #e3e8d9;
+}
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #1f1d1a; --md-default-bg-color--light: #2a2723; --md-default-fg-color: #e8e4de;
+  --md-default-fg-color--light: #b8b2a8; --md-default-fg-color--lighter: #8f8a80; --md-default-fg-color--lightest: #3d3a34;
+  --md-primary-fg-color: #2a2723; --md-primary-bg-color: #e8e4de; --md-primary-bg-color--light: #b8b2a8;
+  --md-accent-fg-color: #a3b585; --md-typeset-a-color: #a3b585;
+  --md-code-bg-color: #2a2723; --md-code-fg-color: #e8e4de;
+  --md-footer-bg-color: #2a2723; --md-footer-fg-color: #e8e4de; --md-footer-fg-color--light: #b8b2a8;
+  --md-typeset-table-color: #3d3a34; --svf-panel: #2a2723; --svf-accent: #76885b; --svf-accent-soft: #2f3628;
+}
+.md-header, .md-tabs { background-color: var(--svf-panel); color: var(--md-default-fg-color); box-shadow: none; }
+.md-header { border-bottom: 2px solid var(--svf-accent); }
+.md-tabs { border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-tabs__link { opacity: 0.75; } .md-tabs__link--active, .md-tabs__link:hover { opacity: 1; }
+.md-typeset { line-height: 1.75; letter-spacing: -0.01em; }
+.md-typeset h1 { font-style: italic; font-weight: 500; color: var(--md-default-fg-color); }
+.md-typeset h2, .md-typeset h3 { font-weight: 500; color: var(--md-default-fg-color); }
+.md-typeset table:not([class]) { background: var(--svf-panel); border: 1px solid var(--md-default-fg-color--lightest); box-shadow: none; }
+.md-typeset table:not([class]) th { background: transparent; border-bottom: 2px solid var(--svf-accent); }
+.md-typeset .admonition, .md-typeset details { background: var(--svf-accent-soft); border: 1px solid var(--svf-accent); border-left-width: 4px; box-shadow: none; }
+.md-typeset .admonition.info > .admonition-title, .md-typeset .info > .admonition-title { background: transparent; }
+.md-typeset .admonition.info > .admonition-title::before { background-color: var(--svf-accent); }
+.md-typeset img { border-radius: 2px; }
+.md-typeset .admonition.info, .md-typeset details.info { border-color: var(--svf-accent); }
+.md-search__form { background-color: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lightest); box-shadow: none; }
+.md-search__input::placeholder { color: var(--md-default-fg-color--light); }
+
+/* Links: dark green (7.5:1 on the page), always underlined, never colour alone. */
+.md-typeset a { text-decoration: underline; text-underline-offset: 3px; font-weight: 500; }
+.md-typeset a:hover { color: var(--md-accent-fg-color); text-decoration-thickness: 2px; }
+.pages { background: var(--svf-panel); border: 1px solid var(--md-default-fg-color--lightest); border-left: 4px solid var(--svf-accent); padding: 4px 20px 12px; margin: 16px 0 24px; }
+.pages ul { margin-top: 4px; }
+.pages > p { margin-bottom: 0; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.8rem; color: var(--md-default-fg-color--light); }
+.pages li { margin: 4px 0; }

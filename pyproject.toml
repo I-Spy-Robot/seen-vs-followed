@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seen-vs-followed"
+version = "0.0.1"
+description = "A protocol for testing whether vision-language-action models act on text in the scene, with a DROID instance."
+requires-python = ">=3.9"
+dependencies = []                      # stdlib only: the tables and statistics regenerate on any machine
+authors = [{ name = "Zachary Gunderson" }]
+readme = "README.md"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+seen_vs_followed = ["data/*.csv"]

@@ -1,0 +1,6 @@
+The files under data/ (episode tables, probe tables, backbone-read outputs) are
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Rendered images of the simulator scene are NOT covered by this license and are
+not included in this repository (see README).

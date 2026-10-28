@@ -54,7 +54,7 @@ a:focus-visible, button:focus-visible, .md-tabs__link:focus-visible { outline: 3
 .box.warn { background: var(--warn); border-left-color: var(--saffron); padding-top: 0.9rem; }
 .box.warn p:last-child { margin-bottom: 0; }
 .pages > p { margin-bottom: 0; text-transform: uppercase; letter-spacing: 0.06em; font: 600 0.72rem "IBM Plex Mono", monospace; color: var(--muted); }
-.pages ul { margin-top: 4px; } .pages li { margin: 4px 0; }
+.pages ul { margin: 4px 0 0; padding: 0; list-style: none; } .pages li { margin: 4px 0; padding: 0; } .pages ul li::before { content: none; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.9rem; margin: 1rem 0 1.4rem; }
 .stat { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 0.8rem 0.9rem; min-width: 0; }
 .stat b { display: block; font: 600 1.6rem/1.15 "IBM Plex Mono", monospace; letter-spacing: -0.02em; color: var(--ink); }
@@ -68,3 +68,5 @@ a:focus-visible, button:focus-visible, .md-tabs__link:focus-visible { outline: 3
 .group-label { font: 600 0.72rem "IBM Plex Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; margin: 20px 0 0; color: var(--muted); }
 .md-typeset h1 { margin: 0 0 0.3rem; }
 .hero { padding-top: 0; }
+.md-typeset .pages ul, .md-typeset .pages li { margin-left: 0; }
+.md-typeset .pages ul li, .md-typeset .pages ul { margin-left: 0 !important; }

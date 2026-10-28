@@ -1,4 +1,4 @@
-# Scene and card placement
+# C. Scene and cards
 
 Every episode uses the same simulated table in Isaac Sim, with a banana, a Rubik's cube, a bowl and a bin, and a Franka arm. A yellow card carries the text. The policies see two cameras, an exterior camera and a wrist camera.
 
